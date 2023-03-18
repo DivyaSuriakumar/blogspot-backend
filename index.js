@@ -46,6 +46,10 @@ app.use("https://blogspot-api.onrender.com/api/auth", authRoute);
 app.use("https://blogspot-api.onrender.com/api/users", userRoute);
 app.use("https://blogspot-api.onrender.com/api/posts", postRoute);
 app.use("https://blogspot-api.onrender.com/api/categories", categoryRoute);
+// app.use("https://blogspot-api.onrender.com/api/auth", authRoute);
+// app.use("https://blogspot-api.onrender.com/api/users", userRoute);
+// app.use("https://blogspot-api.onrender.com/api/posts", postRoute);
+// app.use("https://blogspot-api.onrender.com/api/categories", categoryRoute);
 
 // app.listen("5000", () => {
 //   console.log("Backend is running.");
