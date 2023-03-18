@@ -8,7 +8,11 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
+const cors = require('cors');
 // const { createBrowserHistory } = require("@remix-run/router");
+
+app.use(cors({ origin: true, credentials: true }));
+app.use(express.json({ extended: false }));
 
 
 // ----added by me during hosting
